@@ -1,0 +1,7 @@
+run = ["bash", "run.sh"]
+
+entrypoint = "mzn-pair.sh"
+modules = ["nodejs-20:v8-20230920-bd784b9", "nodejs-20:v8-20230920-bd784b9"]
+
+[nix]
+channel = "stable-22_11"
